@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Tailwind-CSS-Intro</title>
+  <!-- Fontawesome CSS File Link Start -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Fontawesome CSS File Link End -->
+  <!-- Tailwind CDN Link Start -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Tailwind CDN Link End -->
+</head>
+
+<body>
+  <!-- Header Part Start -->
+  <section id="headerPart ">
+    <div class="container max-w-330 m-auto flex justify-between items-center pt-5 pb-5">
+      <div class="menuLogo">
+        <img src="images/header-logo.png" alt="header-logo.png">
+      </div>
+      <div class="menu">
+        <ul class="flex gap-11 ">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">WORKS</a></li>
+        </ul>
+      </div>
+      <div
+        class="hireBtn text-black hover:text-white pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl border-2 border-indigo-600  hover:bg-violet-600">
+        <a href="#">HIRE ME <i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- Header Part End -->
+  <!-- Banner Part Start -->
+  <section id="bannerPart">
+    <div class="container max-w-330 m-auto flex justify-between">
+      <div class="bannerLeft">
+        <h3 class="text-[#5E3BEE] text-[16px] mt-30 font-medium">SAKIB AL HASAN</h3>
+        <h1 class="mt-8  text[#333333] text-[60px] font-bold  pr-37.5">Hello, my
+          name’s Sakib.
+          I’m MERN Stack Developer.</h1>
+        <div class="bannerBtn mt-8 flex gap-5">
+          <a class="text-[14px] font-medium text-black hover:text-white pt-6.25 pb-6.25 pl-8.75 pr-8.75 rounded-4xl border-2 border-indigo-600  hover:bg-violet-600 "
+            href="#"><i class="fa-regular fa-envelope"></i> CONTACT ME</a>
+          <a class="text-[14px] font-medium text-black hover:text-white pt-6.25 pb-6.25 pl-8.75 pr-8.75 rounded-4xl border-2 border-indigo-600  hover:bg-violet-600 "
+            href="#"><i class="fa-solid fa-download"></i> DOWNLOAD CV</a>
+        </div>
+      </div>
+
+      <img class="W-full" src="images/banner.png" alt="banner.png" class="w-100 img-fluid">
+
+
+    </div>
+  </section>
+  <!-- Banner Part End -->
+  <!-- Experience Part Start -->
+  <section id="experiencePart">
+    <div class="container max-w-330 m-auto flex justify-between pt-22.5 pb-36.25">
+      <div class="experienceItem">
+        <h2 class="text-[48px] font-semibold ml-15">100+</h2>
+        <p class="text-[16px] font-medium text-[#121212] ml-15">PROJECTS</p>
+      </div>
+      <div class="experienceItem">
+        <h2 class="text-[48px] font-semibold">24+</h2>
+        <p class="text-[16px] font-medium text-[#121212]">WINNING AWARD</p>
+      </div>
+      <div class="experienceItem">
+        <h2 class="text-[48px] font-semibold">70+</h2>
+        <p class="text-[16px] font-medium text-[#121212]">HAPPY CLIENTS</p>
+      </div>
+      <div class="experienceItem">
+        <h2 class="text-[48px] font-semibold mr-15">10</h2>
+        <p class="text-[16px] font-medium text-[#121212] mr-15">YEAR EXPERIENCE</p>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Part End -->
+  <!-- Services Part Start -->
+  <section id="servicesPart ">
+    <div class="container max-w-330 m-auto  mb-20">
+      <div class="text-center m-auto ">
+        <h3 class="text-[#5E3BEE] text-[16px] mt-5 font-medium">SERVICES</h3>
+        <h1 class="text-[#333] text-[44px] font-semibold">What I Do For My Customer.</h1>
+        <p class=" text-[#121212] text-[16px] leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Cras
+          vitae <br>
+          blandit lectus.
+          Praesent at
+          hendrerit
+          velit, at
+          dictum nisl.</p>
+      </div>
+      <div class="servicesCardMain flex justify-between text-center mt-20">
+        <div class=" servicesCard w-[31%] pt-12.5 pb-13 pr-8.75 pl-8.75 shadow-xl shadow-black-200 rounded-2xl">
+          <img class="mx-auto" src="images/card.png" alt="card.png">
+          <h3 class="pt-2.5 text-[20px] font-medium">UI/UX Design</h3>
+          <p class="pt-2.5">lorem ipsum dolor sit amet <br> consectur adi pising leo</p>
+        </div>
+        <div class=" servicesCard w-[31%] pt-12.5 pb-13 pr-8.75 pl-8.75 shadow-xl shadow-black-200 rounded-2xl">
+          <img class="mx-auto" src="images/card2.png" alt="card2.png">
+          <h3 class="pt-2.5 text-[20px] font-medium">UI/UX Design</h3>
+          <p class="pt-2.5">lorem ipsum dolor sit amet <br> consectur adi pising leo</p>
+        </div>
+        <div class=" servicesCard w-[31%] pt-12.5 pb-13 pr-8.75 pl-8.75 shadow-xl shadow-black-200 rounded-2xl">
+          <img class="mx-auto" src="images/card3.png" alt="card3.png">
+          <h3 class="pt-2.5 text-[20px] font-medium">UI/UX Design</h3>
+          <p class="pt-2.5">lorem ipsum dolor sit amet <br> consectur adi pising leo</p>
+        </div>
+      </div>
+  </section>
+  <!-- Services Part End -->
+</body>
+
+</html>
